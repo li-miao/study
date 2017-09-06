@@ -2,7 +2,7 @@
 // 此文件是由 JavaTM Architecture for XML Binding (JAXB) 引用实现 v2.2.8-b130911.1802 生成的
 // 请访问 <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
 // 在重新编译源模式时, 对此文件的所有修改都将丢失。
-// 生成时间: 2017.08.27 时间 05:12:19 PM CST 
+// 生成时间: 2017.09.06 时间 11:51:56 AM CST 
 //
 
 
@@ -53,11 +53,11 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link Root.Data.Contacts }
+     * Create an instance of {@link Root.Data.CreditpayDTO }
      * 
      */
-    public Root.Data.Contacts createRootDataContacts() {
-        return new Root.Data.Contacts();
+    public Root.Data.CreditpayDTO createRootDataCreditpayDTO() {
+        return new Root.Data.CreditpayDTO();
     }
 
 }

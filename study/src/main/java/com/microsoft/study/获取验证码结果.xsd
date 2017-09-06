@@ -1,0 +1,48 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="root">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element type="xs:string" name="success"/>
+        <xs:element type="xs:string" name="message"/>
+        <xs:element type="xs:string" name="errorCode"/>
+        <xs:element type="xs:string" name="errorMessage"/>
+        <xs:element type="xs:string" name="systime"/>
+        <xs:element type="xs:string" name="requestIP"/>
+        <xs:element name="data">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="fastPay"/>
+              <xs:element type="xs:string" name="orderNo"/>
+              <xs:element type="xs:string" name="wapPayUrl"/>
+              <xs:element type="xs:string" name="alipay"/>
+              <xs:element type="xs:string" name="unionPay"/>
+              <xs:element name="creditpayDTO">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="orgAirport"/>
+                    <xs:element type="xs:string" name="tripType"/>
+                    <xs:element type="xs:string" name="dstAirport"/>
+                    <xs:element type="xs:string" name="orgCode"/>
+                    <xs:element type="xs:string" name="priceSum"/>
+                    <xs:element type="xs:string" name="dstCode"/>
+                    <xs:element type="xs:string" name="tseq"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="xs:string" name="icbcabcpay"/>
+              <xs:element type="xs:string" name="cmbPay"/>
+              <xs:element type="xs:string" name="depDate"/>
+              <xs:element type="xs:string" name="weixinWapPay"/>
+              <xs:element type="xs:string" name="weixinJsPay"/>
+              <xs:element type="xs:string" name="paymentNo"/>
+              <xs:element type="xs:string" name="aliwappay"/>
+              <xs:element type="xs:string" name="vip"/>
+              <xs:element type="xs:string" name="ok"/>
+              <xs:element type="xs:string" name="tenpay"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
